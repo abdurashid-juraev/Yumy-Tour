@@ -1,0 +1,18 @@
+.main-link {
+  display: inline-flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ff4d25;
+  transition: background-color 0.3s;
+  &:hover {
+    color: #ffffff;
+    background-color: #f73105;
+  }
+}

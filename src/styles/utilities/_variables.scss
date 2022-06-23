@@ -1,0 +1,38 @@
+// colors
+
+//===========================================
+
+// font-familys
+
+//===========================================
+
+.container {
+  max-width: 1370px;
+  width: 100%;
+  @media (max-width: 1366px) {
+    max-width: 1200px;
+  }
+}
+body {
+  font-family: "Gilroy" !important;
+}
+.m-b-50 {
+  margin-bottom: 50px;
+}
+.m-b-100 {
+  margin-bottom: 100px;
+}
+.m-t-50 {
+  margin-top: 50px;
+}
+@media (max-width: 1366px) {
+  .m-b-100 {
+    margin-bottom: 70px;
+  }
+  .m-b-50 {
+    margin-bottom: 30px;
+  }
+  .m-t-50 {
+    margin-top: 30px;
+  }
+}

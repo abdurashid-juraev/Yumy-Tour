@@ -1,0 +1,60 @@
+.tour-section {
+  margin: 40px 0 75px 0;
+  @media (max-width: 1440px) {
+    margin: 40px 0 50px 0;
+  }
+  @media (max-width: 820px) {
+    margin: 60px 0 40px 0;
+    border-top: none;
+  }
+}
+.tour-item {
+  padding: 0;
+  margin-bottom: 80px;
+  &:hover {
+    box-shadow: none;
+  }
+  @media (max-width: 1440px) {
+    margin-bottom: 40px;
+  }
+}
+.tour-filter {
+  display: flex;
+  justify-content: flex-end;
+}
+.tour-filter-form {
+  display: flex;
+}
+.filter-btn {
+  height: 50px;
+  min-width: 120px;
+  outline: 1px solid #ff4d25;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ff4d25;
+  }
+  &:hover {
+    background-color: #ff4d25;
+    span {
+      color: #ffffff;
+    }
+  }
+}
+.active-filter {
+  background-color: #ff4d25;
+  span {
+    color: #ffffff;
+  }
+}
